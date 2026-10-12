@@ -94,7 +94,7 @@ def send_telegram_notification(status, old_due, new_due):
         masked_EMAIL = EMAIL[:2] + '****'
 
     text = (
-        f"🇲🇽 HidenCloud 续期通知\n\n"
+        f"🇫🇷 HidenCloud 续期通知\n\n"
         f"{status}\n"
         f"👤 账号: {masked_EMAIL}\n"
         f"📅 续期前到期：{old_due}\n"
